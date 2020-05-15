@@ -2,17 +2,17 @@ public class Solution
 {
   public static void main(String[] args)
   {
-    System.out.println(chocolateFeast(15,3,2));
+    System.out.println(chocolateFeast(15, 3, 2));
   }
 
   static int chocolateFeast(int n, int c, int m)
   {
-    int chockolate=n/c;
-    int maxChockolate=chockolate;
+    int chockolate = n / c;
+    int maxChockolate = chockolate;
 
-    while(chockolate>=m)
+    while (chockolate >= m)
     {
-      chockolate-=m;
+      chockolate -= m;
       maxChockolate++;
       chockolate++;
     }
