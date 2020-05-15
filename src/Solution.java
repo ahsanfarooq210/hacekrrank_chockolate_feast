@@ -5,7 +5,7 @@ public class Solution
     System.out.println(chocolateFeast(15, 3, 2));
   }
 
-  static int chocolateFeast(int n, int c, int m)
+  public static int chocolateFeast(int n, int c, int m)
   {
     int chockolate = n / c;
     int maxChockolate = chockolate;
